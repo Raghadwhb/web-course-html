@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightslategrey;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box {
+  background-color: white;
+  width: 40%;
+  height: 600px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.close {
+  text-align: left;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  border: none;
+  background-color: white;
+  padding: 3px 4px;
+  margin: 3px;
+}
+.logo {
+  align-self: center;
+  text-align: center;
+  display: block;
+  border-top: 0px;
+}
+#signin-methods {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 30px
+}
+.google-button {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.apple-button {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1px 20px;
+}
+.line-left {
+  border-top: 1px solid gray;
+  flex-grow: 1;
+}
+.or-text {
+  text-align: center;
+  color: black;
+  font-size: medium;
+}
+.line-right {
+  border-top: 1px solid gray;
+  flex-grow: 1;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  align-items: center;
+}
+.input-field {
+  padding: 10px;
+  margin: 0;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 300px;
+}
+.next-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: block;
+  margin: 20px 0;
+  width: 300px;
+}
+.forgot-button {
+  background-color: white;
+  color: black;
+  border-color: grey;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: block;
+  margin: 5px 0;
+  width: 300px;
+}
+.signup-text {
+  text-size-adjust: small;
+  font-size: small;
+  text-align: center;
+  margin-top: 0px;
+}
