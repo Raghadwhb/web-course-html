@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NL Gift Store</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">NL Gift Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+
+        <!-- Home Section -->
+        <section id="home" class="mb-5">
+            <h2 class="text-primary">NL Gift Store</h2>
+            <p class="lead">Tellivizzle ipsum dolizzle fo shizzle amizzle, consectetuer adipiscing my shizz...</p>
+            <div class="p-4 bg-light rounded shadow-sm my-3">
+                <h3>Why you should buy from us</h3>
+                <p>Phasellizzle tellivizzle volutpizzle go to hizzle. Stuff crackalackin adipiscing lorem...</p>
+                <h4>Samples</h4>
+            </div>
+            <img src="image.jpg" class="img-fluid rounded" alt="Sample Image">
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="mb-5">
+            <h2 class="text-secondary">About US</h2>
+            <p>This section contains information about the topic, raesent phat turpis izzle leo...</p>
+            <div class="p-4 bg-light rounded shadow-sm my-3">
+                <h3>Info Title</h3>
+                <p>This is an info container.</p>
+                <h4>Info Title</h4>
+                <video class="img-fluid" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <hr>
+                <table class="table table-striped mt-3">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Header 1</th>
+                            <th>Header 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data 1</td>
+                            <td>Data 2</td>
+                        </tr>
+                        <tr>
+                            <td>Data 3</td>
+                            <td>Data 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-5">
+            <h2 class="text-success">Contact Section</h2>
+            <p>You can contact us via: <a href="mailto:raghad@gmail.com">raghad@gmail.com</a></p>
+        </section>
+
+        <!-- Form Section -->
+        <section class="mb-5">
+            <form class="p-4 bg-light rounded shadow-sm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="subscribe" name="subscribe">
+                    <label class="form-check-label" for="subscribe">Subscribe to newsletter</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Gender:</label>
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="male" name="gender" value="male">
+                            <label class="form-check-label" for="male">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="female" name="gender" value="female">
+                            <label class="form-check-label" for="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="country" class="form-label">Country:</label>
+                    <select id="country" class="form-select" name="country">
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">UK</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-success w-100">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        © 2026 NL Gift Store
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
