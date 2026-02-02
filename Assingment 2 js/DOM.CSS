@@ -1,0 +1,20 @@
+.bg-dark {
+    background-color: #111;
+    color: #fff;
+}
+
+#my-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.items li {
+    padding: 5px;
+}
