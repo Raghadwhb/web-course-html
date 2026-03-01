@@ -1,0 +1,24 @@
+body {
+    background-color: #f5f7fa;
+}
+
+h2 {
+    font-weight: 600;
+    color: #333;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
